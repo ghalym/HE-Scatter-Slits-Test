@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.18">
+  <POU Name="PLC_Task_01" Id="{03b7c84f-3d60-4e89-8483-adffb0dbdaa0}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM PLC_Task_01
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[PRG_SL3L0_SCATTER();]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>
